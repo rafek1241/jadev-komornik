@@ -2,7 +2,7 @@
 import { PlaywrightCrawler, ProxyConfiguration } from 'crawlee';
 import { router } from './routes.js';
 
-const startUrls = ['https://licytacje.komornik.pl/Home/Index'];
+const startUrls = ['https://licytacje.komornik.pl'];
 
 const crawler = new PlaywrightCrawler({
     // proxyConfiguration: new ProxyConfiguration({ proxyUrls: ['...'] }),
